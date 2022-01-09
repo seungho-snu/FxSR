@@ -42,6 +42,6 @@ The effect of choosing different layers when estimating perceptual losses on dif
 
 The architecture of our proposed flexible SR network. We use the RRDB equipped with SFT as a basic block. The condition branch takes a style map for reconstruction style as input. This map is used to control the recovery styles of edges and textures for each region through SFT layers.
 
-<p align="center"><img src="figure/fig05_c_RRDB-SFT" width="700"></p>
+<p align="center"><img src="figure/fig05_c_RRDB-SFT.png" width="700"></p>
 
 The proposed Basic Block (RRDB equipped with SFT layer)

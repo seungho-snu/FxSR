@@ -28,3 +28,20 @@ Recent studies have significantly enhanced the performance of single-image super
 
 #### [SRFlow (ECCV 2020)] Recovering Realistic Texture in Image Super-Resolution by Deep Spatial Feature Transform <a href="http://de.arxiv.org/pdf/2006.14200?gitT">Link</a>
 <br><br>
+
+
+## Brief Description of Our Proposed Method
+
+### <u>Illustration of the Overall Scheme</u>
+
+<p align="center"><img src="figure/fig_VGGs.png" width="700"></p>
+
+The effect of choosing different layers when estimating perceptual losses on different regions, e.g., on edge and texture regions, where the losses correspond to MSE, ReLU 2-2 (VGG22), and ReLU 4-4 (VGG44) of the VGG-19 network.
+
+<p align="center"><img src="figure/fig_architecture.png" width="700"></p>
+
+The architecture of our proposed flexible SR network. We use the RRDB equipped with SFT as a basic block (Figure~\ref{fig:f05}(c)). The condition branch takes a style map for reconstruction style as input. This map is used to control the recovery styles of edges and textures for each region through SFT layers.
+
+<p align="center"><img src="fig05_c_RRDB-SFT" width="700"></p>
+
+The proposed Basic Block (RRDB equipped with SFT layer)

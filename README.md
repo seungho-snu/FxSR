@@ -59,17 +59,17 @@ The proposed Basic Block (RRDB equipped with SFT layer)
 
 ### Evaluation of Flexible SR for Perception-Distortion (FxSR-PD)
 
-<p align="center"><img src="figure/FxSR-PD_4x.png" width="500"></p>
+<p align="center"><img src="figure/FxSR-PD_4x.png" width="700"></p>
 
 Changes in the result of FxSR-PS 4x SR according to t on DIV2K validation set.
 
-<p align="center"><img src="figure/FxSR-PD_4x_t08.png" width="500"></p>
+<p align="center"><img src="figure/FxSR-PD_4x_t08.png" width="700"></p>
 
 Visual comparison with state-of-the-art perception-driven SR methods on DIV2K validation set.
 
 ### Flexible SR for Diverse Styles (FxSR-DS)
 
-<p align="center"><img src="figure/FxSR-DS_4x.png" width="500"></p>
+<p align="center"><img src="figure/FxSR-DS_4x.png" width="700"></p>
 
 Changes in the result of FxSR-DS 4x SR according to t on DIV2K validation set.
 

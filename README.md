@@ -54,3 +54,54 @@ PROPOSED SR WITH FLEXIBLE STYLE
 <p align="center"><img src="figure/fig05_c_RRDB-SFT.png" width="700"></p>
 
 The proposed Basic Block (RRDB equipped with SFT layer)
+
+## Experimental Results
+
+### Evaluation of Flexible SR for Perception-Distortion (FxSR-PD)
+
+<p align="center"><img src="figure/FxSR-PD_4x.png" width="500"></p>
+
+Changes in the result of FxSR-PS 4x SR according to t on DIV2K validation set.
+
+<p align="center"><img src="figure/FxSR-PD_4x_t08" width="500"></p>
+
+Visual comparison with state-of-the-art perception-driven SR methods on DIV2K validation set.
+
+### Flexible SR for Diverse Styles (FxSR-DS)
+
+<p align="center"><img src="figure/FxSR-DS_4x.png" width="500"></p>
+
+Changes in the result of FxSR-DS 4x SR according to t on DIV2K validation set.
+
+### Per-pixel Style Control
+
+<p align="center"><img src="figure/fig_Local_Map_text_SR_v11.png" width="500"></p>
+(a)
+<p align="center"><img src="figure/fig_Local_Map_text_FxSR_v11.png" width="500"></p>
+(b)
+Comparison of the SR results of the conventional method (a), which applies one objective to the entire image, and the FxSR-PD method, which applies different objectives for each area (clothes and letters) through a local map. We can see that the proposed FxSR-PD in (b) can more accurately produce the locally intended and suitable SR results without side effects such as blurry textures and broken characters.
+
+<p align="center"><img src="figure/fig_Local_Map_texture_SR_v11.png" width="500"></p>
+(a)
+<p align="center"><img src="figure/fig_Local_Map_texture_FxSR_v11.png" width="500"></p>
+(b)
+Comparison of the SR results of the conventional method (a), which applies one objective to the entire image, and the FxSR-DS method, which applies different objectives for each area (buildings and trees) through a local map. We can see that the proposed FxSR-DS in (b) can more accurately produce the locally intended and suitable SR results without side effects such as blurry tree textures and overshoot around the edges.
+
+<p align="center"><img src="figure/fig_Local_Map_depth2_FxSR_v11.png" width="500"></p>
+Depth-adaptive FxSR. $\mathbf{T}$-maps is the modified version of the depth map of an image from the Make3D dataset.
+
+<p align="center"><img src="figure/fig_Local_Map_depth_FxSR_v11.png" width="500"></p>
+An example of applying a user-created depth map to enhance the perspective feeling with the sharper and richer textured foreground and the background with more reduced camera noise than the ground truth.
+
+### Ablation Study
+
+Convergence of diversity curve of the proposed FxSR-PD model as the number of training iteration increase
+
+<p align="center"><img src="figure/fig_itr_diversity_a.png" width="500"></p>
+(a) 16 RBs with SFT
+
+<p align="center"><img src="figure/fig_itr_diversity_b.png" width="500"></p>
+(b) using 23 RRDBs with SFT
+
+<p align="center"><img src="figure/fig_itr_diversity_c.png" width="500"></p>
+(c) The performance comparison between two FxSR-PD version at the 250,000th iteration

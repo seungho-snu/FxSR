@@ -75,24 +75,24 @@ Changes in the result of FxSR-DS 4x SR according to t on DIV2K validation set.
 
 ### Per-pixel Style Control
 Comparison of the SR results of the conventional method and the FxSR-DS method
-<p align="center"><img src="figure/fig_Local_Map_text_SR_v11.png" width="500"></p>
-<p align="center"><img src="figure/fig_Local_Map_text_FxSR_v11.png" width="500"></p>
+<p align="center"><img src="figure/fig_Local_Map_text_SR_v11.png" width="700"></p>
+<p align="center"><img src="figure/fig_Local_Map_text_FxSR_v11.png" width="700"></p>
 
-<p align="center"><img src="figure/fig_Local_Map_texture_SR_v11.png" width="500"></p>
-<p align="center"><img src="figure/fig_Local_Map_texture_FxSR_v11.png" width="500"></p>
+<p align="center"><img src="figure/fig_Local_Map_texture_SR_v11.png" width="700"></p>
+<p align="center"><img src="figure/fig_Local_Map_texture_FxSR_v11.png" width="700"></p>
 
 
-<p align="center"><img src="figure/fig_Local_Map_depth2_FxSR_v11.png" width="500"></p>
+<p align="center"><img src="figure/fig_Local_Map_depth2_FxSR_v11.png" width="700"></p>
 Depth-adaptive FxSR. $\mathbf{T}$-maps is the modified version of the depth map of an image from the Make3D dataset.
 
-<p align="center"><img src="figure/fig_Local_Map_depth_FxSR_v11.png" width="500"></p>
+<p align="center"><img src="figure/fig_Local_Map_depth_FxSR_v11.png" width="700"></p>
 An example of applying a user-created depth map to enhance the perspective feeling with the sharper and richer textured foreground and the background with more reduced camera noise than the ground truth.
 
 ### Ablation Study
 
 Convergence of diversity curve of the proposed FxSR-PD model as the number of training iteration increase
 (a) 16 RBs with SFT, (b) using 23 RRDBs with SFT, (c) The performance comparison between two FxSR-PD version at the 250,000th iteration
-<p align="center"><img src="figure/fig_itr_diversity_a.png" width="300"></p>
-<p align="center"><img src="figure/fig_itr_diversity_b.png" width="300"></p>
-<p align="center"><img src="figure/fig_itr_diversity_c.png" width="300"></p>
+<p align="center"><img src="figure/fig_itr_diversity_a.png" width="500"></p>
+<p align="center"><img src="figure/fig_itr_diversity_b.png" width="500"></p>
+<p align="center"><img src="figure/fig_itr_diversity_c.png" width="500"></p>
 

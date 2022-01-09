@@ -5,7 +5,7 @@ Seung Ho Park, Young Soo Moon, and Nam Ik Cho
 
 ## Environments
 - Pytorch
-- CUDA 11.5 & cuDNN 7.1
+- CUDA 11.5 & cuDNN 11.4
 - Python 3.8
 
 ## Abstract

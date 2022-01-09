@@ -4,7 +4,7 @@
 Seung Ho Park, Young Soo Moon, and Nam Ik Cho
 
 ## Environments
-- Pytorch
+- Pytorch 1.10.0
 - CUDA 11.5 & cuDNN 11.4
 - Python 3.8
 

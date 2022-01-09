@@ -32,16 +32,25 @@ Recent studies have significantly enhanced the performance of single-image super
 
 ## Brief Description of Our Proposed Method
 
-### <u>Illustration of the Overall Scheme</u>
+### <u>TARGETED PERCEPTUAL LOSS</u>
 
 <p align="center"><img src="figure/fig_VGGs.png" width="700"></p>
 
 The effect of choosing different layers when estimating perceptual losses on different regions, e.g., on edge and texture regions, where the losses correspond to MSE, ReLU 2-2 (VGG22), and ReLU 4-4 (VGG44) of the VGG-19 network.
 
+
+### <u>PROPOSED SR WITH FLEXIBLE STYLE</u>
+
+<p align="center"><img src="figure/eqn_01.png" width="200"></p>
+
+<p align="center"><img src="figure/eqn_02.png" width="200"></p>
+
+### <u>PROPOSED NETWORK ARCHITECTURE</u>
+
 <p align="center"><img src="figure/fig_architecture.png" width="700"></p>
 
 The architecture of our proposed flexible SR network. We use the RRDB equipped with SFT as a basic block. The condition branch takes a style map for reconstruction style as input. This map is used to control the recovery styles of edges and textures for each region through SFT layers.
-
+PROPOSED SR WITH FLEXIBLE STYLE
 <p align="center"><img src="figure/fig05_c_RRDB-SFT.png" width="700"></p>
 
 The proposed Basic Block (RRDB equipped with SFT layer)

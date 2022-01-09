@@ -74,18 +74,13 @@ Visual comparison with state-of-the-art perception-driven SR methods on DIV2K va
 Changes in the result of FxSR-DS 4x SR according to t on DIV2K validation set.
 
 ### Per-pixel Style Control
-
+Comparison of the SR results of the conventional method and the FxSR-DS method
 <p align="center"><img src="figure/fig_Local_Map_text_SR_v11.png" width="500"></p>
-(a)
 <p align="center"><img src="figure/fig_Local_Map_text_FxSR_v11.png" width="500"></p>
-(b)
-Comparison of the SR results of the conventional method (a), which applies one objective to the entire image, and the FxSR-PD method, which applies different objectives for each area (clothes and letters) through a local map. We can see that the proposed FxSR-PD in (b) can more accurately produce the locally intended and suitable SR results without side effects such as blurry textures and broken characters.
 
 <p align="center"><img src="figure/fig_Local_Map_texture_SR_v11.png" width="500"></p>
-(a)
 <p align="center"><img src="figure/fig_Local_Map_texture_FxSR_v11.png" width="500"></p>
-(b)
-Comparison of the SR results of the conventional method (a), which applies one objective to the entire image, and the FxSR-DS method, which applies different objectives for each area (buildings and trees) through a local map. We can see that the proposed FxSR-DS in (b) can more accurately produce the locally intended and suitable SR results without side effects such as blurry tree textures and overshoot around the edges.
+
 
 <p align="center"><img src="figure/fig_Local_Map_depth2_FxSR_v11.png" width="500"></p>
 Depth-adaptive FxSR. $\mathbf{T}$-maps is the modified version of the depth map of an image from the Make3D dataset.

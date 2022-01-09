@@ -41,9 +41,9 @@ The effect of choosing different layers when estimating perceptual losses on dif
 
 ### <u>PROPOSED SR WITH FLEXIBLE STYLE</u>
 
-<p align="center"><img src="figure/eqn_01.PNG" width="150"></p>
+<p align="center"><img src="figure/eqn_01.PNG" width="200"></p>
 
-<p align="center"><img src="figure/eqn_02.PNG" width="700"></p>
+<p align="center"><img src="figure/eqn_02.PNG" width="500"></p>
 
 ### <u>PROPOSED NETWORK ARCHITECTURE</u>
 

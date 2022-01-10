@@ -14,8 +14,10 @@ Recent studies have significantly enhanced the performance of single-image super
 
 # Usage:
 
-## Quick usage on your data:
+## Test models
+Download the pretrained FxSR-PD 4x model from DropBox <a href="https://1drv.ms/u/s!AqwRM35EFiRZgtJRwIcAThRZt8R8ig?e=TDpg4b">Link</a> 
 
+## Quick usage on your data:
 you can choose any number [0, 1] for t.
 
     python test.py -opt options/test/test_FxSR_4x_ntire.yml -t 0.8

@@ -80,7 +80,7 @@ Visual comparison with state-of-the-art perception-driven SR methods on DIV2K va
 
 <p align="center"><img src="figure/Quantitative Comparison FxSR-PD.png" width="800"></p>
 
-### Flexible SR for Diverse Styles (FxSR-DS)
+### Visual Evaluation of Flexible SR for Diverse Styles (FxSR-DS)
 
 <p align="center"><img src="figure/FxSR-DS_4x.png" width="900"></p>
 

@@ -117,8 +117,8 @@ Convergence of diversity curve of the proposed FxSR-PD model as the number of tr
 
 We joined the NTIRE 2021 challenge under the name of SSS
 The FxSR-DS is the best for LPIPS in both 4x and 8x and ranks 8th in diversity score.
-<p align="center"><img src="figure/ntire_4x.png" width="1200"></p>
-<p align="center"><img src="figure/ntire_8x.png" width="1200"></p>
+<p align="center"><img src="figure/ntire_4x.png" width="800"></p>
+<p align="center"><img src="figure/ntire_8x.png" width="800"></p>
 
 # Acknowledgement
 Our work and implementations are inspired by and based on BasicSR <a href="https://github.com/xinntao/BasicSR">[site]</a> 

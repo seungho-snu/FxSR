@@ -113,12 +113,14 @@ Convergence of diversity curve of the proposed FxSR-PD model as the number of tr
 -->
 <p align="center"><img src="figure/fig_itr_diversity_all.png" width="1200"></p>
 
+<!--
 # NTIRE 2021 Learning the Super-Resolution Space Challenge <a href="https://github.com/andreas128/NTIRE21_Learning_SR_Space">Link</a> 
 
 We joined the NTIRE 2021 challenge under the name of SSS.
 The FxSR-DS is the best for LPIPS in both 4x and 8x and ranks 8th in diversity score.<a href="https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Lugmayr_NTIRE_2021_Learning_the_Super-Resolution_Space_Challenge_CVPRW_2021_paper.pdf">Link</a> 
 <p align="center"><img src="figure/ntire_4x.png" width="600"></p>
 <p align="center"><img src="figure/ntire_8x.png" width="600"></p>
+-->
 
 # Acknowledgement
 Our work and implementations are inspired by and based on BasicSR <a href="https://github.com/xinntao/BasicSR">[site]</a> 

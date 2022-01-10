@@ -100,8 +100,10 @@ An example of applying a user-created depth map to enhance the perspective feeli
 ### Ablation Study
 
 Convergence of diversity curve of the proposed FxSR-PD model as the number of training iteration increase
+<!--
 (a) 16 RBs with SFT, (b) using 23 RRDBs with SFT, (c) The performance comparison between two FxSR-PD version at the 250,000th iteration
-<p align="center"><img src="figure/fig_itr_diversity_all.png" width="800"></p>
+-->
+<p align="center"><img src="figure/fig_itr_diversity_all.png" width="1000"></p>
 
 
 # Acknowledgement

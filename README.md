@@ -15,7 +15,11 @@ Recent studies have significantly enhanced the performance of single-image super
 - Python 3.8
 - 
 ## Test models
-Download the pretrained FxSR-PD 4x model from DropBox <a href="https://1drv.ms/u/s!AqwRM35EFiRZgtJRwIcAThRZt8R8ig?e=TDpg4b">Link</a> 
+Download the pretrained FxSR-PD 4x model from OneDrive <a href="https://1drv.ms/u/s!AqwRM35EFiRZgtQw4TFXp54wqcv4FQ?e=S3OzUL">Link</a> 
+Download the pretrained FxSR-PD 8x model from OneDrive <a href="https://1drv.ms/u/s!AqwRM35EFiRZgtQu2ME4sOnJpQc2nA?e=Oe8E2J">Link</a> 
+Download the pretrained FxSR-DS 4x model from OneDrive <a href="https://1drv.ms/u/s!AqwRM35EFiRZgtJRwIcAThRZt8R8ig?e=0iIRZo">Link</a> 
+Download the pretrained FxSR-DS 8x model from OneDrive <a href="https://1drv.ms/u/s!AqwRM35EFiRZgtJPp3h34ypLN3EMeg?e=Gx3RPc">Link</a> 
+
 
 ## Quick usage on your data:
 you can choose any number [0, 1] for t.

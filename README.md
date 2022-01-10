@@ -14,7 +14,7 @@ Seung Ho Park, Young Soo Moon, and Nam Ik Cho
 
 ## Quick usage on your data:
 
-you can choose any number [0, 1] for t. t is a random variable.
+you can choose any number [0, 1] for t.
 
     python test.py -opt options/test/test_FxSR_4x_ntire.yml -t 0.8
     python test.py -opt options/test/test_FxSR_8x_ntire.yml -t 0.8

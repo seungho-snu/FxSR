@@ -13,7 +13,7 @@ Recent studies have significantly enhanced the performance of single-image super
 - Pytorch 1.10.0
 - CUDA 11.5 & cuDNN 11.4
 - Python 3.8
-- 
+
 ## Test models
 Download the pretrained FxSR-PD 4x model from OneDrive <a href="https://1drv.ms/u/s!AqwRM35EFiRZgtQw4TFXp54wqcv4FQ?e=S3OzUL">Link</a> 
 Download the pretrained FxSR-PD 8x model from OneDrive <a href="https://1drv.ms/u/s!AqwRM35EFiRZgtQu2ME4sOnJpQc2nA?e=Oe8E2J">Link</a> 

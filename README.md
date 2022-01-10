@@ -83,7 +83,7 @@ Comparison of the SR results of the conventional method and the FxSR-DS method
 
 
 <p align="center"><img src="figure/fig_Local_Map_depth2_FxSR_v11.png" width="700"></p>
-Depth-adaptive FxSR. $\mathbf{T}$-maps is the modified version of the depth map of an image from the Make3D dataset.
+Depth-adaptive FxSR. T-maps is the modified version of the depth map of an image from the Make3D dataset.
 
 <p align="center"><img src="figure/fig_Local_Map_depth_FxSR_v11.png" width="700"></p>
 An example of applying a user-created depth map to enhance the perspective feeling with the sharper and richer textured foreground and the background with more reduced camera noise than the ground truth.

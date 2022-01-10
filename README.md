@@ -113,8 +113,8 @@ Depth-adaptive FxSR. T-maps is the modified version of the depth map of an image
 An example of applying a user-created depth map to enhance the perspective feeling with the sharper and richer textured foreground and the background with more reduced camera noise than the ground truth.
 -->
 
-<p align="center"><img src="figure/0026_Local.png" width="700"></p>
-<p align="center"><img src="figure/0187_Local.png" width="700"></p>
+<p align="center"><img src="figure/0026_Local.png" width="1000"></p>
+<p align="center"><img src="figure/0187_Local.png" width="1000"></p>
 ...
 
 ### Ablation Study

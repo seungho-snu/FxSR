@@ -88,6 +88,8 @@ Visual comparison with state-of-the-art perception-driven SR methods on DIV2K va
 
 ### Quantitative Evaluation of Flexible SR for Perception-Distortion (FxSR-PD)
 
+<p align="center"><img src="figure/PD-curve.png" width="800"></p>
+
 <p align="center"><img src="figure/Quantitative Comparison FxSR-PD.png" width="800"></p>
 
 ### Visual Evaluation of Flexible SR for Diverse Styles (FxSR-DS)

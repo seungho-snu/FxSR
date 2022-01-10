@@ -106,7 +106,7 @@ Convergence of diversity curve of the proposed FxSR-PD model as the number of tr
 <!--
 (a) 16 RBs with SFT, (b) using 23 RRDBs with SFT, (c) The performance comparison between two FxSR-PD version at the 250,000th iteration
 -->
-<p align="center"><img src="figure/fig_itr_diversity_all.png" width="1000"></p>
+<p align="center"><img src="figure/fig_itr_diversity_all.png" width="1200"></p>
 
 
 # Acknowledgement

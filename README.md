@@ -66,7 +66,7 @@ The proposed Basic Block (RRDB equipped with SFT layer)
 
 ## Experimental Results
 
-### Evaluation of Flexible SR for Perception-Distortion (FxSR-PD)
+### Visual Evaluation of Flexible SR for Perception-Distortion (FxSR-PD)
 
 <p align="center"><img src="figure/FxSR-PD_4x.png" width="800"></p>
 
@@ -75,6 +75,10 @@ Changes in the result of FxSR-PS 4x SR according to t on DIV2K validation set.
 <p align="center"><img src="figure/FxSR-PD_4x_t08.png" width="800"></p>
 
 Visual comparison with state-of-the-art perception-driven SR methods on DIV2K validation set.
+
+### Quantitative Evaluation of Flexible SR for Perception-Distortion (FxSR-PD)
+
+<p align="center"><img src="figure/Quantitative Comparison FxSR-PD.png" width="800"></p>
 
 ### Flexible SR for Diverse Styles (FxSR-DS)
 

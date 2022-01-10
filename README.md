@@ -105,3 +105,5 @@ Convergence of diversity curve of the proposed FxSR-PD model as the number of tr
 <p align="center"><img src="figure/fig_itr_diversity_b.png" width="500"></p>
 <p align="center"><img src="figure/fig_itr_diversity_c.png" width="500"></p>
 
+# Acknowledgement
+Our work and implementations are inspired by and based on BasicSR <a href="https://github.com/xinntao/BasicSR">[site]</a> 

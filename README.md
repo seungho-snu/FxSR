@@ -14,6 +14,12 @@ Recent studies have significantly enhanced the performance of single-image super
 - CUDA 11.5 & cuDNN 11.4
 - Python 3.8
 
+
+## Quick usage on your data:
+you can choose any number [0, 1] for t.
+
+    python test.py -opt options/test/test_FxSR_4x.yml -t 0.8
+    
 ## Test models
 Download the pretrained FxSR-PD 4x model from OneDrive <a href="https://1drv.ms/u/s!AqwRM35EFiRZgtQw4TFXp54wqcv4FQ?e=S3OzUL">Link</a> 
 
@@ -24,11 +30,6 @@ Download the pretrained FxSR-DS 4x model from OneDrive <a href="https://1drv.ms/
 Download the pretrained FxSR-DS 8x model from OneDrive <a href="https://1drv.ms/u/s!AqwRM35EFiRZgtJPp3h34ypLN3EMeg?e=Gx3RPc">Link</a> 
 
 
-## Quick usage on your data:
-you can choose any number [0, 1] for t.
-
-    python test.py -opt options/test/test_FxSR_4x.yml -t 0.8
-    
 <!--    
 ## Related Work
 

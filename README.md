@@ -113,7 +113,7 @@ Depth-adaptive FxSR. T-maps is the modified version of the depth map of an image
 An example of applying a user-created depth map to enhance the perspective feeling with the sharper and richer textured foreground and the background with more reduced camera noise than the ground truth.
 -->
 
-Examples of focusing an object
+Example of naturally focusing foreground objects
 <p align="center"><img src="figure/0026_Local3.png" width="1200"></p>
 <p align="center"><img src="figure/0187_Local3.png" width="1200"></p>
 ...

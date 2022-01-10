@@ -1,1 +1,2 @@
-Pre-trained Model Link
+Download pretrained models from Dropbox. 
+Place the models in ./FxSR_models

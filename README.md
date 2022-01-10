@@ -23,6 +23,7 @@ you can choose any number [0, 1] for t.
     python test.py -opt options/test/test_FxSR_4x_ntire.yml -t 0.8
     python test.py -opt options/test/test_FxSR_8x_ntire.yml -t 0.8
     
+<!--    
 ## Related Work
 
 ### Distortion Oriented Single Image Super-Resolution
@@ -37,7 +38,7 @@ you can choose any number [0, 1] for t.
 
 #### [SRFlow (ECCV 2020)] Recovering Realistic Texture in Image Super-Resolution by Deep Spatial Feature Transform <a href="http://de.arxiv.org/pdf/2006.14200?gitT">Link</a>
 <br><br>
-
+-->
 
 ## Brief Description of Our Proposed Method
 

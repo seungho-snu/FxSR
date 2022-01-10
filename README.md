@@ -105,6 +105,10 @@ Depth-adaptive FxSR. T-maps is the modified version of the depth map of an image
 An example of applying a user-created depth map to enhance the perspective feeling with the sharper and richer textured foreground and the background with more reduced camera noise than the ground truth.
 -->
 
+### Per-pixel Style Control (Additional Restuls)
+
+...
+
 ### Ablation Study
 
 Convergence of diversity curve of the proposed FxSR-PD model as the number of training iteration increase

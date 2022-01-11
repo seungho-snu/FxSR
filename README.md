@@ -104,22 +104,24 @@ Examples of local reconstruction style control.
 Comparison of the SR results of the conventional method and the FxSR-DS method.
 <p align="center"><img src="figure/fig_Local_Map_text_SR_v11.png" width="700"></p>
 <p align="center"><img src="figure/fig_Local_Map_text_FxSR_v11.png" width="700"></p>
+------------------------------------------
 <!--
 <p align="center"><img src="figure/fig_Local_Map_texture_SR_v11.png" width="700"></p>
 <p align="center"><img src="figure/fig_Local_Map_texture_FxSR_v11.png" width="700"></p>
-
-<p align="center"><img src="figure/fig_Local_Map_depth2_FxSR_v11.png" width="700"></p>
-Depth-adaptive FxSR. T-maps is the modified version of the depth map of an image from the Make3D dataset.
-
-<p align="center"><img src="figure/fig_Local_Map_depth_FxSR_v11.png" width="700"></p>
-An example of applying a user-created depth map to enhance the perspective feeling with the sharper and richer textured foreground and the background with more reduced camera noise than the ground truth.
 -->
 
+Depth-adaptive FxSR. T-maps is the modified version of the depth map of an image from the Make3D dataset.
+
+------------------------------------------
+<p align="center"><img src="figure/fig_Local_Map_depth_FxSR_v11.png" width="700"></p>
+An example of applying a user-created depth map to enhance the perspective feeling with the sharper and richer textured foreground and the background with more reduced camera noise than the ground truth.
+<p align="center"><img src="figure/fig_Local_Map_depth2_FxSR_v11.png" width="700"></p>
+------------------------------------------
 Examples of naturally focusing foreground objects without artifacts. (Experiments for FxSR-PD 4x on Div8K validation dataset)
 <p align="center"><img src="figure/0026_Local3.png" width="1200"></p>
+------------------------------------------
 <p align="center"><img src="figure/0187_Local3.png" width="1200"></p>
 (red circle: over-enhanced and unnatural areas)
-...
 
 ### Ablation Study
 

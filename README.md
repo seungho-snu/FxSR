@@ -101,9 +101,12 @@ Changes in the result of FxSR-DS 4x SR according to t on DIV2K validation set.
 ### Per-pixel Style Control
 Examples of local reconstruction style control.
 
-#### Comparison of the SR results of the conventional method and the FxSR-DS method.
+#### Comparison of the SR results of the conventional method and the FxSR-PD method.
+The conventional method
 <p align="center"><img src="figure/fig_Local_Map_text_SR_v11.png" width="700"></p>
+The FxSR-PD method
 <p align="center"><img src="figure/fig_Local_Map_text_FxSR_v11.png" width="700"></p>
+
 ------------------------------------------
 <!--
 <p align="center"><img src="figure/fig_Local_Map_texture_SR_v11.png" width="700"></p>

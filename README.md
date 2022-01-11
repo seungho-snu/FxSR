@@ -118,7 +118,7 @@ An example of applying a user-created depth map to enhance the perspective feeli
 Examples of naturally focusing foreground objects without artifacts. (Experiments for FxSR-PD 4x on Div8K validation dataset)
 <p align="center"><img src="figure/0026_Local3.png" width="1200"></p>
 <p align="center"><img src="figure/0187_Local3.png" width="1200"></p>
-(red circle: over-enhanced artifacts)
+(red circle: over-enhanced and unnatural areas)
 ...
 
 ### Ablation Study

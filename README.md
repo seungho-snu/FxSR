@@ -55,11 +55,9 @@ The effect of choosing different layers when estimating perceptual losses on dif
 
 ### <u>PROPOSED SR WITH FLEXIBLE STYLE</u>
 
+<p align="center"><img src="figure/eqn_01.PNG" width="200"></p>   
+<p align="center"><img src="figure/eqn_02.PNG" width="500"></p>   
 The proposed flexible SR model is optimized with a conditional objective, which is a weighted sum of several perceptual losses corresponding to different feature levels, where each weight changes depending on the style map. 
-
-<p align="center"><img src="figure/eqn_01.PNG" width="200"></p>
-
-<p align="center"><img src="figure/eqn_02.PNG" width="500"></p>
 
 ### <u>PROPOSED NETWORK ARCHITECTURE</u>
 

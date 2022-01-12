@@ -2,5 +2,4 @@ Quick start
 
 you can choose any number [0, 1] for t. t is a random variable. 
 
-test.py -opt options/test/test_FxSR_4x_ntire.yml -t 0.8
-test.py -opt options/test/test_FxSR_8x_ntire.yml -t 0.8
+test.py -opt options/test/test_FxSR_4x.yml -t 0.8

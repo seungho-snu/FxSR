@@ -53,12 +53,12 @@ Download the pretrained FxSR-DS 8x model from OneDrive <a href="https://1drv.ms/
 
 ### <u>TARGETED PERCEPTUAL LOSS</u>
 
+The effect of choosing different layers when estimating perceptual losses on different regions, e.g., on edge and texture regions, where the losses correspond to MSE, ReLU 2-2 (VGG22), and ReLU 4-4 (VGG44) of the VGG-19 network.
 <p align="center"><img src="figure/fig_VGGs.png" width="700"></p>
 
-The effect of choosing different layers when estimating perceptual losses on different regions, e.g., on edge and texture regions, where the losses correspond to MSE, ReLU 2-2 (VGG22), and ReLU 4-4 (VGG44) of the VGG-19 network.
-
-
 ### <u>PROPOSED SR WITH FLEXIBLE STYLE</u>
+
+The proposed flexible SR model is optimized with a conditional objective, which is a weighted sum of several perceptual losses corresponding to different feature levels, where each weight changes depending on the style map. 
 
 <p align="center"><img src="figure/eqn_01.PNG" width="200"></p>
 
@@ -66,25 +66,25 @@ The effect of choosing different layers when estimating perceptual losses on dif
 
 ### <u>PROPOSED NETWORK ARCHITECTURE</u>
 
-<p align="center"><img src="figure/fig_architecture.png" width="700"></p>
-
 The architecture of our proposed flexible SR network. We use the RRDB equipped with SFT as a basic block. The condition branch takes a style map for reconstruction style as input. This map is used to control the recovery styles of edges and textures for each region through SFT layers.
 
-<p align="center"><img src="figure/fig05_c_RRDB-SFT.png" width="700"></p>
+<p align="center"><img src="figure/fig_architecture.png" width="700"></p>
 
 The proposed Basic Block (RRDB equipped with SFT layer)
+
+<p align="center"><img src="figure/fig05_c_RRDB-SFT.png" width="700"></p>
 
 ## Experimental Results
 
 ### Visual Evaluation of Flexible SR for Perception-Distortion (FxSR-PD)
 
-<p align="center"><img src="figure/FxSR-PD_4x.png" width="800"></p>
-
 Changes in the result of FxSR-PS 4x SR according to t on DIV2K validation set.
 
-<p align="center"><img src="figure/FxSR-PD_4x_t08.png" width="800"></p>
+<p align="center"><img src="figure/FxSR-PD_4x.png" width="800"></p>
 
 Visual comparison with state-of-the-art perception-driven SR methods on DIV2K validation set.
+
+<p align="center"><img src="figure/FxSR-PD_4x_t08.png" width="800"></p>
 
 ### Quantitative Evaluation of Flexible SR for Perception-Distortion (FxSR-PD)
 
@@ -94,9 +94,9 @@ Visual comparison with state-of-the-art perception-driven SR methods on DIV2K va
 
 ### Visual Evaluation of Flexible SR for Diverse Styles (FxSR-DS)
 
-<p align="center"><img src="figure/FxSR-DS_4x.png" width="900"></p>
-
 Changes in the result of FxSR-DS 4x SR according to t on DIV2K validation set.
+
+<p align="center"><img src="figure/FxSR-DS_4x.png" width="900"></p>
 
 ### Per-pixel Style Control
 Examples of local reconstruction style control.
@@ -115,14 +115,15 @@ The FxSR-PD method
 
 #### Depth-adaptive FxSR
 T-maps is the modified version of the depth map of an image from the Make3D dataset.
-
-<p align="center"><img src="figure/fig_Local_Map_depth_FxSR_v11.png" width="700"></p>
-An example of applying a user-created depth map to enhance the perspective feeling with the sharper and richer textured foreground and the background with more reduced camera noise than the ground truth.
 <p align="center"><img src="figure/fig_Local_Map_depth2_FxSR_v11.png" width="700"></p>
+
+An example of applying a user-created depth map to enhance the perspective feeling with the sharper and richer textured foreground and the background with more reduced camera noise than the ground truth.
+<p align="center"><img src="figure/fig_Local_Map_depth_FxSR_v11.png" width="700"></p>
 
 ------------------------------------------
 
 #### Focusing objects
+
 Examples of naturally focusing foreground objects without artifacts. (Experiments for FxSR-PD 4x on Div8K validation dataset)
 <p align="center"><img src="figure/0026_Local3.png" width="1200"></p>
 

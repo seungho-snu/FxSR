@@ -140,14 +140,13 @@ FxSR-DS is the best in terms of LPIPS for both 4x and 8x, 8th in diversity score
 <p align="center"><img src="figure/ntire_8x.png" width="600"></p>
 
 # Citation
-'''
-@ARTICLE{fxsr2022seungho,
-  author={Liu, Jing and Xue, Yuxin and Zhao, Shanshan and Li, Shancang and Zhang, Xiaoyan},
-  journal={IEEE Access}, 
-  title={Flexible Style Image Super-Resolution using Conditional Objective}, 
-  year={2022}
-}
-'''
+
+    @ARTICLE{fxsr2022seungho,
+      author={Liu, Jing and Xue, Yuxin and Zhao, Shanshan and Li, Shancang and Zhang, Xiaoyan},
+      journal={IEEE Access}, 
+      title={Flexible Style Image Super-Resolution using Conditional Objective}, 
+      year={2022}
+    }
 
 # Acknowledgement
 Our work and implementations are inspired by and based on BasicSR <a href="https://github.com/xinntao/BasicSR">[site]</a> 

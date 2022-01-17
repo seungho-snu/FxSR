@@ -1,7 +1,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fseungho-snu%2Ffxsr&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # FxSR
-# Flexible Image Super-Resolution using Conditional Objective
+# Flexible Style Image Super-Resolution using Conditional Objective
 
 Seung Ho Park, Young Soo Moon, and Nam Ik Cho
 
@@ -139,6 +139,15 @@ FxSR-DS is the best in terms of LPIPS for both 4x and 8x, 8th in diversity score
 <p align="center"><img src="figure/ntire_4x.png" width="600"></p>
 <p align="center"><img src="figure/ntire_8x.png" width="600"></p>
 
+# Citation
+'''
+@ARTICLE{fxsr2022seungho,
+  author={Liu, Jing and Xue, Yuxin and Zhao, Shanshan and Li, Shancang and Zhang, Xiaoyan},
+  journal={IEEE Access}, 
+  title={Flexible Style Image Super-Resolution using Conditional Objective}, 
+  year={2022}
+}
+'''
 
 # Acknowledgement
 Our work and implementations are inspired by and based on BasicSR <a href="https://github.com/xinntao/BasicSR">[site]</a> 

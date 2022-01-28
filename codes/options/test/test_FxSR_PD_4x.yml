@@ -1,0 +1,28 @@
+name: FxSR_PD_4x
+
+suffix: ~  # add suffix to saved images
+model: sr
+distortion: sr
+scale: 4
+crop_border: ~  # crop border when evaluation. If None(~), crop the scale pixels
+gpu_ids: [1]
+
+#### network structures
+network_G:
+  which_model_G: RRDBNet
+  in_nc: 4
+  out_nc: 3
+  nf: 64
+  nb: 23
+  upscale: 4
+
+datasets:
+  ntire_4x_100:  # the 1st test dataset
+    name: DIV2K-te_4X
+    mode: LQ
+    dataroot_LQ: E:\exp\ntire\DIV2K-te_4X
+
+#### path
+path:
+  pretrain_model_G: E:\FxSR-main\FxSR_models\FxSR-PD-4x.pth
+

@@ -13,14 +13,14 @@ Recent studies have significantly enhanced the performance of single-image super
 
 ### Environments
 - Pytorch 1.10.0
-- CUDA 11.5 & cuDNN 11.4
+- CUDA 11.5
 - Python 3.8
 
 
 ### Quick usage on your data:
-you can choose any number [0, 1] for t.
+You can choose any number [0, 1] for t.
 
-    python test.py -opt options/test/test_FxSR_4x.yml -t 0.8
+    python test.py -opt options/test/test_FxSR_PD_4x.yml -t 0.8
     
 ### Test models
 

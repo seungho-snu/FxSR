@@ -1,5 +1,5 @@
 Quick start
 
-you can choose any number [0, 1] for t. t is a random variable. 
+You can choose any number [0, 1] for t.
 
-test.py -opt options/test/test_FxSR_4x.yml -t 0.8
+test.py -opt options/test/test_FxSR_PD_4x.yml -t 0.8

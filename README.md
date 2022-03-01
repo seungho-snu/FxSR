@@ -2,7 +2,7 @@
 
 # FxSR
 # Flexible Style Image Super-Resolution using Conditional Objective
-
+<paper> <a href="https://ieeexplore.ieee.org/document/9684919">Link</a>
 Seung Ho Park, Young Soo Moon, and Nam Ik Cho
 
 ## Abstract

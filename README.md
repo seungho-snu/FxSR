@@ -158,6 +158,6 @@ FxSR-DS is the best in terms of LPIPS for both 4x and 8x, 8th in diversity score
       number={},
       pages={9774-9792},
       doi={10.1109/ACCESS.2022.3144406}}
-
+      
 # Acknowledgement
 Our work and implementations are inspired by and based on BasicSR <a href="https://github.com/xinntao/BasicSR">[site]</a> 

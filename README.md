@@ -1,11 +1,15 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fseungho-snu%2Ffxsr&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/flexible-style-image-super-resolution-using/image-super-resolution-on-bsd100-4x-upscaling)](https://paperswithcode.com/sota/image-super-resolution-on-bsd100-4x-upscaling?p=flexible-style-image-super-resolution-using)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/flexible-style-image-super-resolution-using/image-super-resolution-on-general100-4x)](https://paperswithcode.com/sota/image-super-resolution-on-general100-4x?p=flexible-style-image-super-resolution-using)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/flexible-style-image-super-resolution-using/image-super-resolution-on-div2k-val-4x)](https://paperswithcode.com/sota/image-super-resolution-on-div2k-val-4x?p=flexible-style-image-super-resolution-using)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/flexible-style-image-super-resolution-using/image-super-resolution-on-bsd100-8x-upscaling)](https://paperswithcode.com/sota/image-super-resolution-on-bsd100-8x-upscaling?p=flexible-style-image-super-resolution-using)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/flexible-style-image-super-resolution-using/image-super-resolution-on-general100-8x)](https://paperswithcode.com/sota/image-super-resolution-on-general100-8x?p=flexible-style-image-super-resolution-using)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/flexible-style-image-super-resolution-using/image-super-resolution-on-div2k-val-8x)](https://paperswithcode.com/sota/image-super-resolution-on-div2k-val-8x?p=flexible-style-image-super-resolution-using)
 
 # FxSR

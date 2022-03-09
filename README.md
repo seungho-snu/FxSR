@@ -26,7 +26,7 @@ Recent studies have significantly enhanced the performance of single-image super
 
 ### Environments
 - Pytorch 1.10.0
-- CUDA 11.5
+- CUDA 11.3
 - Python 3.8
 
 
